@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Highlights from "./components/HighLights";
+import HighLights from "./components/HighLights";
 import Model from "./components/Model";
 import Features from "./components/Features";
 import HowItWorks from "./components/HowItWorks";
@@ -12,7 +12,7 @@ function App() {
     <main className="bg-black">
       <Navbar />
       <Hero />
-      <Highlights />
+      <HighLights />
       <Model />
       <Features />
       <HowItWorks />
